@@ -322,7 +322,11 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+ function saudacao() {
+return "Bom dia!"
+}
+
+export const resposta01 = saudacao;
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -330,8 +334,12 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function dobro(a) {
+  return a * 2
+}
 
-export const resposta02 = false
+
+export const resposta02 = dobro;
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -341,7 +349,16 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+function ehPositivo(b) {
+if (a > 0) {
+return true
+}
+else {
+return false
+}
+}
+
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -351,7 +368,11 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+function nomeCompleto (primeiroNome, sobrenome) {
+return primeiroNome + " " + sobrenome
+}
+
+export const resposta04 = nomeCompleto;
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -372,7 +393,11 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+function contarTravaLinguas (travaLinguas) {
+return travaLinguas.length
+}
+
+export const resposta05 = contarTravaLinguas;
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -382,8 +407,14 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+let c = travaLinguas.length[0]
 
-export const resposta06 = false
+function obterTravaLingua (c) {
+return travaLinguas(c);
+
+}
+
+export const resposta06 = obterTravaLingua;
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
