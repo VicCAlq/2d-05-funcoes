@@ -350,13 +350,15 @@ da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function ehPositivo(b) {
-if (a > 0) {
+if (b > 0) {
 return true
 }
 else {
 return false
 }
 }
+
+// poderia ser apenas: return b > 0
 
 export const resposta03 = ehPositivo
 
@@ -407,10 +409,11 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-let c = travaLinguas.length[0]
+
+//let c = travaLinguas.length[0] nao precisa
 
 function obterTravaLingua (c) {
-return travaLinguas(c);
+return travaLinguas[c];
 
 }
 
