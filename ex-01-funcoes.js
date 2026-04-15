@@ -429,7 +429,12 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+function contarPalavrasTravaLingua(c) {
+return travaLinguas[c].split(" ").length;
+
+}
+
+export const resposta07 = contarPalavrasTravaLingua;
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -442,7 +447,21 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+const aspalavra = []
+let i = 0;
+
+function buscarTravaLinguasComPalavra (palavra) {
+
+  while (i < travaLinguas.length) {
+    if (travaLinguas[i].includes(palavra)) {
+      aspalavra.push(travaLinguas[i]);
+    }
+    i++;
+  }
+  return aspalavra;
+}
+
+export const resposta08 = aspalavra;
 
 // Lista para as questões 9 a 12
 export const elementos = [
