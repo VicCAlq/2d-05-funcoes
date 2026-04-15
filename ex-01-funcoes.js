@@ -506,8 +506,14 @@ resposta a função criada, sem executá-la (basta enviar o
 nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta11 = false
+function listarNomesElementos(elementos){
+  const resultado=[]
+  for(elemento of elementos){
+    resultado.push(elemento.nome)
+  }
+  return resultado
+}
+export const resposta11 = listarNomesElementos
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
@@ -518,4 +524,14 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+function elementosComNumeroPar (elementos){
+  let resultado = [];
+  for(elemento of elementos){
+  if(elemento.numeroAtomico % 2 == 0){
+    resultado.push(elemento)
+  }
+  }
+  return resultado
+}
+
+export const resposta12 = elementosComNumeroPar
