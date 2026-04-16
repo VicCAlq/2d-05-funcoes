@@ -421,11 +421,15 @@ diretamente no texto para separar as palavras e depois conte quantas existem.
 Este método retorna uma lista. Envie na resposta a função criada, sem 
 executá-la (basta enviar o nome da função sem os parênteses)
 */
-// Escreva o código da solução abaixo:
+// Escreva o código da solução abaixo
 
+function contarTravaLingua (n) {
+  travaLinguas[n].split(" ")
 
+  return travaLinguas.length
+}
 
-export const resposta07 = false
+export const resposta07 = contarTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -438,7 +442,18 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+function buscarTravaLinguasComPalavra (pala) {
+  let tra = []
+  
+  for (let busc of travaLinguas) {
+    if (busc.includes(pala)) {
+      tra.push(busc)
+    }
+    return tra
+  }
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -465,6 +480,7 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+
 
 export const resposta09 = false
 
