@@ -322,7 +322,11 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+function saudacao(){
+    return "Hello World!"
+}
+
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -331,7 +335,11 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+function dobro(numero1){
+  return numero1**25
+}
+
+export const resposta02 = dobro
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -341,7 +349,15 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+function ehPositivo(numero2){
+if(numero2 > 0){
+  return true
+}else{
+  return false
+}
+
+}
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -351,7 +367,7 @@ um espaço. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+export const resposta04 = fals
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
