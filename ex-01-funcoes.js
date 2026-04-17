@@ -444,7 +444,27 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+
+
+function buscarTravaLinguasComPalavra(palavra){
+
+let indice = 0
+
+let travaLinguasPalavra= []
+
+
+while(indice<travaLinguas.length){
+if(travaLinguas[indice].includes(palavra)){
+travaLinguasPalavra.push(travaLinguas[indice])
+}
+indice++
+}
+
+return travaLinguasPalavra 
+
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
