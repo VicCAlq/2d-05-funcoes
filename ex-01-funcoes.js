@@ -396,8 +396,11 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function obterTravaLingua(numero){
+return travaLinguas[numero]
+}
 
-export const resposta06 = false
+export const resposta06 = obterTravaLingua
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -408,8 +411,12 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+function contarPalavrasTravaLingua(numero){
+  const texto = travaLinguas[numero]
+  const palavras = texto.split(" ")
+  return palavras.length
+}
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -421,8 +428,20 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function buscarTravaLinguasComPalavra(palavra) {
+let filtrados = [];
+  let i = 0;
 
-export const resposta08 = false
+  while (i < travaLinguas.length) {
+    if (travaLinguas[i].includes(palavra)) {
+      filtrados.push(travaLinguas[i]);
+    }
+    i++;
+  }
+
+  return filtrados;
+}
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -449,7 +468,9 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
+function contarElementos (elementos) {
+  return elementos.length
+}
 export const resposta09 = false
 
 /* Questão 10
