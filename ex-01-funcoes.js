@@ -488,8 +488,11 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function contarElementos (elementos) {
+return elementos.length
+}
+export const resposta09 = contarElementos
 
-export const resposta09 = false
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -499,6 +502,12 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+
+function buscarPorNumeroAtomico (elementos, numeroAtomico) {
+
+
+
+}
 
 export const resposta10 = false
 
