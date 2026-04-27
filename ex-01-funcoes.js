@@ -355,7 +355,7 @@ function ehPositivo(numero) {
   }
   else if (numero <= 0) {
     return false
-  {
+  }
 }
 
 export const resposta03 = ehPositivo
