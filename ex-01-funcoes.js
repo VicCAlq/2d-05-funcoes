@@ -521,4 +521,4 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false 
+export const resposta12 = false
