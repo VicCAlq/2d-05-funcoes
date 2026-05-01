@@ -336,7 +336,7 @@ enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function dobro(numero1){
-  return numero1**25
+  return numero1*2
 }
 
 export const resposta02 = dobro
@@ -423,7 +423,7 @@ executá-la (basta enviar o nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function contarPalavrasTravaLingua(numero4){
-  return travaLinguas[numero4].split("")
+  return travaLinguas[numero4]
 }
 export const resposta07 = contarPalavrasTravaLingua
 
@@ -487,14 +487,13 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function buscarPorNumeroAtomico(elementos,numeroAtomico2){
+function buscarPorNumeroAtomico(elementos, numeroAtomico) {
   for (let elemento of elementos) {
-    if (elemento.numeroAtomico===numeroAtomico2){
-      return elemento
-    }else{
-      return null
+    if (elemento.numeroAtomico === numeroAtomico) {
+      return elemento;
     }
   }
+  return null;
 }
 export const resposta10 = buscarPorNumeroAtomico
 
