@@ -355,7 +355,7 @@ function ehPositivo(numero) {
   }
   else if (numero <= 0) {
     return false
-  {
+  }
 }
 
 export const resposta03 = ehPositivo
@@ -521,4 +521,4 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false 
+export const resposta12 = false
