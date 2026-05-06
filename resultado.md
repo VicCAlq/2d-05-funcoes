@@ -1,4 +1,4 @@
-Data de atualização: Dia 06/05/2026 às 12:52:25
+Data de atualização: Dia 06/05/2026 às 12:54:34
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -10,7 +10,7 @@ Data de atualização: Dia 06/05/2026 às 12:52:25
 |  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected [] to be type of 'function' |
+|  8 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ …(3) ] to deeply equal [ …(2) ] |
 |  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 | 11 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
