@@ -491,7 +491,7 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarPorNumeroAtomico(lista, numero){
-  let Elemento 
+  let Elemento = null
   let i = 0
 
   while (i < lista.length){
