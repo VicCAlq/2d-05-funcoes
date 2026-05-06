@@ -1,4 +1,4 @@
-Data de atualização: Dia 06/05/2026 às 12:52:38
+Data de atualização: Dia 06/05/2026 às 12:55:56
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -6,12 +6,12 @@ Data de atualização: Dia 06/05/2026 às 12:52:38
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ❌ | ReferenceError: True is not defined |
-|  4 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  5 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  6 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
-|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ 'O', 'rato', 'roeu', 'a', …(5) ] to deeply equal 9 |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 | 11 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
 | 12 | Ex 01 | ❌ | ❌ | AssertionError: expected false to be type of 'function' |
